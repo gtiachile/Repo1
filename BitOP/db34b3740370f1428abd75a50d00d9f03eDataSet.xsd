@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="db34b3740370f1428abd75a50d00d9f03eDataSet" targetNamespace="http://tempuri.org/db34b3740370f1428abd75a50d00d9f03eDataSet.xsd" xmlns:mstns="http://tempuri.org/db34b3740370f1428abd75a50d00d9f03eDataSet.xsd" xmlns="http://tempuri.org/db34b3740370f1428abd75a50d00d9f03eDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="BopDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="BopDBConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.BopDBConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_PlanProduccionTableAdapter" GeneratorDataComponentClassName="v_PlanProduccionTableAdapter" Name="v_PlanProduccion" UserDataComponentName="v_PlanProduccionTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BopDBConnectionString (Web.config)" DbObjectName="db34b3740370f1428abd75a50d00d9f03e.dbo.v_PlanProduccion" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Planta, Fecha, Area, Producto, Unidad, QDia, QTarde, QNoche, tDia, tTarde, tNoche, Formato FROM dbo.v_PlanProduccion</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Planta" DataSetColumn="Planta" />
+              <Mapping SourceColumn="Fecha" DataSetColumn="Fecha" />
+              <Mapping SourceColumn="Area" DataSetColumn="Area" />
+              <Mapping SourceColumn="Producto" DataSetColumn="Producto" />
+              <Mapping SourceColumn="Unidad" DataSetColumn="Unidad" />
+              <Mapping SourceColumn="QDia" DataSetColumn="QDia" />
+              <Mapping SourceColumn="QTarde" DataSetColumn="QTarde" />
+              <Mapping SourceColumn="QNoche" DataSetColumn="QNoche" />
+              <Mapping SourceColumn="tDia" DataSetColumn="tDia" />
+              <Mapping SourceColumn="tTarde" DataSetColumn="tTarde" />
+              <Mapping SourceColumn="tNoche" DataSetColumn="tNoche" />
+              <Mapping SourceColumn="Formato" DataSetColumn="Formato" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="db34b3740370f1428abd75a50d00d9f03eDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="db34b3740370f1428abd75a50d00d9f03eDataSet" msprop:Generator_UserDSName="db34b3740370f1428abd75a50d00d9f03eDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="v_PlanProduccion" msprop:Generator_TableClassName="v_PlanProduccionDataTable" msprop:Generator_TableVarName="tablev_PlanProduccion" msprop:Generator_TablePropName="v_PlanProduccion" msprop:Generator_RowDeletingName="v_PlanProduccionRowDeleting" msprop:Generator_RowChangingName="v_PlanProduccionRowChanging" msprop:Generator_RowEvHandlerName="v_PlanProduccionRowChangeEventHandler" msprop:Generator_RowDeletedName="v_PlanProduccionRowDeleted" msprop:Generator_UserTableName="v_PlanProduccion" msprop:Generator_RowChangedName="v_PlanProduccionRowChanged" msprop:Generator_RowEvArgName="v_PlanProduccionRowChangeEvent" msprop:Generator_RowClassName="v_PlanProduccionRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Planta" msprop:Generator_ColumnVarNameInTable="columnPlanta" msprop:Generator_ColumnPropNameInRow="Planta" msprop:Generator_ColumnPropNameInTable="PlantaColumn" msprop:Generator_UserColumnName="Planta">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" msprop:Generator_UserColumnName="Fecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Area" msprop:Generator_ColumnVarNameInTable="columnArea" msprop:Generator_ColumnPropNameInRow="Area" msprop:Generator_ColumnPropNameInTable="AreaColumn" msprop:Generator_UserColumnName="Area">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Producto" msprop:Generator_ColumnVarNameInTable="columnProducto" msprop:Generator_ColumnPropNameInRow="Producto" msprop:Generator_ColumnPropNameInTable="ProductoColumn" msprop:Generator_UserColumnName="Producto">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="63" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Unidad" msprop:Generator_ColumnVarNameInTable="columnUnidad" msprop:Generator_ColumnPropNameInRow="Unidad" msprop:Generator_ColumnPropNameInTable="UnidadColumn" msprop:Generator_UserColumnName="Unidad">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="QDia" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnQDia" msprop:Generator_ColumnPropNameInRow="QDia" msprop:Generator_ColumnPropNameInTable="QDiaColumn" msprop:Generator_UserColumnName="QDia" type="xs:int" minOccurs="0" />
+              <xs:element name="QTarde" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnQTarde" msprop:Generator_ColumnPropNameInRow="QTarde" msprop:Generator_ColumnPropNameInTable="QTardeColumn" msprop:Generator_UserColumnName="QTarde" type="xs:int" minOccurs="0" />
+              <xs:element name="QNoche" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnQNoche" msprop:Generator_ColumnPropNameInRow="QNoche" msprop:Generator_ColumnPropNameInTable="QNocheColumn" msprop:Generator_UserColumnName="QNoche" type="xs:int" minOccurs="0" />
+              <xs:element name="tDia" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columntDia" msprop:Generator_ColumnPropNameInRow="tDia" msprop:Generator_ColumnPropNameInTable="tDiaColumn" msprop:Generator_UserColumnName="tDia" type="xs:decimal" minOccurs="0" />
+              <xs:element name="tTarde" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columntTarde" msprop:Generator_ColumnPropNameInRow="tTarde" msprop:Generator_ColumnPropNameInTable="tTardeColumn" msprop:Generator_UserColumnName="tTarde" type="xs:decimal" minOccurs="0" />
+              <xs:element name="tNoche" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columntNoche" msprop:Generator_ColumnPropNameInRow="tNoche" msprop:Generator_ColumnPropNameInTable="tNocheColumn" msprop:Generator_UserColumnName="tNoche" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Formato" msprop:Generator_ColumnVarNameInTable="columnFormato" msprop:Generator_ColumnPropNameInRow="Formato" msprop:Generator_ColumnPropNameInTable="FormatoColumn" msprop:Generator_UserColumnName="Formato">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

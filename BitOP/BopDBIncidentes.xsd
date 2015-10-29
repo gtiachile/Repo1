@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BopDBIncidentes" targetNamespace="http://tempuri.org/BopDBIncidentes.xsd" xmlns:mstns="http://tempuri.org/BopDBIncidentes.xsd" xmlns="http://tempuri.org/BopDBIncidentes.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="BopDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="BopDBConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.BopDBConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_reporte_incidentesTableAdapter" GeneratorDataComponentClassName="v_reporte_incidentesTableAdapter" Name="v_reporte_incidentes" UserDataComponentName="v_reporte_incidentesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BopDBConnectionString (Web.config)" DbObjectName="BopDB.dbo.v_reporte_incidentes" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Incidente, DescTipoIncidente, FechaIncidente, HoraIncidente, Planta, DescPlanta, Area, DescArea, Proceso, DescProceso, Equipo, DescEquipo, Usuario, Asunto, Descripcion, IndAlerta FROM dbo.v_reporte_incidentes</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Incidente" DataSetColumn="Incidente" />
+              <Mapping SourceColumn="DescTipoIncidente" DataSetColumn="DescTipoIncidente" />
+              <Mapping SourceColumn="FechaIncidente" DataSetColumn="FechaIncidente" />
+              <Mapping SourceColumn="HoraIncidente" DataSetColumn="HoraIncidente" />
+              <Mapping SourceColumn="Planta" DataSetColumn="Planta" />
+              <Mapping SourceColumn="DescPlanta" DataSetColumn="DescPlanta" />
+              <Mapping SourceColumn="Area" DataSetColumn="Area" />
+              <Mapping SourceColumn="DescArea" DataSetColumn="DescArea" />
+              <Mapping SourceColumn="Proceso" DataSetColumn="Proceso" />
+              <Mapping SourceColumn="DescProceso" DataSetColumn="DescProceso" />
+              <Mapping SourceColumn="Equipo" DataSetColumn="Equipo" />
+              <Mapping SourceColumn="DescEquipo" DataSetColumn="DescEquipo" />
+              <Mapping SourceColumn="Usuario" DataSetColumn="Usuario" />
+              <Mapping SourceColumn="Asunto" DataSetColumn="Asunto" />
+              <Mapping SourceColumn="Descripcion" DataSetColumn="Descripcion" />
+              <Mapping SourceColumn="IndAlerta" DataSetColumn="IndAlerta" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BopDBIncidentes" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="BopDBIncidentes" msprop:Generator_UserDSName="BopDBIncidentes">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="v_reporte_incidentes" msprop:Generator_TableClassName="v_reporte_incidentesDataTable" msprop:Generator_TableVarName="tablev_reporte_incidentes" msprop:Generator_TablePropName="v_reporte_incidentes" msprop:Generator_RowDeletingName="v_reporte_incidentesRowDeleting" msprop:Generator_RowChangingName="v_reporte_incidentesRowChanging" msprop:Generator_RowEvHandlerName="v_reporte_incidentesRowChangeEventHandler" msprop:Generator_RowDeletedName="v_reporte_incidentesRowDeleted" msprop:Generator_UserTableName="v_reporte_incidentes" msprop:Generator_RowChangedName="v_reporte_incidentesRowChanged" msprop:Generator_RowEvArgName="v_reporte_incidentesRowChangeEvent" msprop:Generator_RowClassName="v_reporte_incidentesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Incidente" msprop:Generator_ColumnVarNameInTable="columnIncidente" msprop:Generator_ColumnPropNameInRow="Incidente" msprop:Generator_ColumnPropNameInTable="IncidenteColumn" msprop:Generator_UserColumnName="Incidente" type="xs:long" />
+              <xs:element name="DescTipoIncidente" msprop:Generator_ColumnVarNameInTable="columnDescTipoIncidente" msprop:Generator_ColumnPropNameInRow="DescTipoIncidente" msprop:Generator_ColumnPropNameInTable="DescTipoIncidenteColumn" msprop:Generator_UserColumnName="DescTipoIncidente">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FechaIncidente" msprop:Generator_ColumnVarNameInTable="columnFechaIncidente" msprop:Generator_ColumnPropNameInRow="FechaIncidente" msprop:Generator_ColumnPropNameInTable="FechaIncidenteColumn" msprop:Generator_UserColumnName="FechaIncidente">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HoraIncidente" msprop:Generator_ColumnVarNameInTable="columnHoraIncidente" msprop:Generator_ColumnPropNameInRow="HoraIncidente" msprop:Generator_ColumnPropNameInTable="HoraIncidenteColumn" msprop:Generator_UserColumnName="HoraIncidente">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Planta" msprop:Generator_ColumnVarNameInTable="columnPlanta" msprop:Generator_ColumnPropNameInRow="Planta" msprop:Generator_ColumnPropNameInTable="PlantaColumn" msprop:Generator_UserColumnName="Planta">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescPlanta" msprop:Generator_ColumnVarNameInTable="columnDescPlanta" msprop:Generator_ColumnPropNameInRow="DescPlanta" msprop:Generator_ColumnPropNameInTable="DescPlantaColumn" msprop:Generator_UserColumnName="DescPlanta" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Area" msprop:Generator_ColumnVarNameInTable="columnArea" msprop:Generator_ColumnPropNameInRow="Area" msprop:Generator_ColumnPropNameInTable="AreaColumn" msprop:Generator_UserColumnName="Area" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescArea" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnDescArea" msprop:Generator_ColumnPropNameInRow="DescArea" msprop:Generator_ColumnPropNameInTable="DescAreaColumn" msprop:Generator_UserColumnName="DescArea" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Proceso" msprop:Generator_ColumnVarNameInTable="columnProceso" msprop:Generator_ColumnPropNameInRow="Proceso" msprop:Generator_ColumnPropNameInTable="ProcesoColumn" msprop:Generator_UserColumnName="Proceso" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescProceso" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnDescProceso" msprop:Generator_ColumnPropNameInRow="DescProceso" msprop:Generator_ColumnPropNameInTable="DescProcesoColumn" msprop:Generator_UserColumnName="DescProceso" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Equipo" msprop:Generator_ColumnVarNameInTable="columnEquipo" msprop:Generator_ColumnPropNameInRow="Equipo" msprop:Generator_ColumnPropNameInTable="EquipoColumn" msprop:Generator_UserColumnName="Equipo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescEquipo" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnDescEquipo" msprop:Generator_ColumnPropNameInRow="DescEquipo" msprop:Generator_ColumnPropNameInTable="DescEquipoColumn" msprop:Generator_UserColumnName="DescEquipo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Usuario" msprop:Generator_ColumnVarNameInTable="columnUsuario" msprop:Generator_ColumnPropNameInRow="Usuario" msprop:Generator_ColumnPropNameInTable="UsuarioColumn" msprop:Generator_UserColumnName="Usuario">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Asunto" msprop:Generator_ColumnVarNameInTable="columnAsunto" msprop:Generator_ColumnPropNameInRow="Asunto" msprop:Generator_ColumnPropNameInTable="AsuntoColumn" msprop:Generator_UserColumnName="Asunto">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="300" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_UserColumnName="Descripcion">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IndAlerta" msprop:Generator_ColumnVarNameInTable="columnIndAlerta" msprop:Generator_ColumnPropNameInRow="IndAlerta" msprop:Generator_ColumnPropNameInTable="IndAlertaColumn" msprop:Generator_UserColumnName="IndAlerta">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:v_reporte_incidentes" />
+      <xs:field xpath="mstns:Incidente" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

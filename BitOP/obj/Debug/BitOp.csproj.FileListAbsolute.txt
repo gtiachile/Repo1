@@ -1,0 +1,58 @@
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\obj\Debug\BitOp.csprojResolveAssemblyReference.cache
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\obj\Debug\BitOp.csproj.GenerateResource.Cache
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\obj\Debug\BitOp.Properties.Resources.resources
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\obj\Debug\RdlCompile.cache
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\obj\Debug\RdlCompile.compiled
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\BitOP.dll.config
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\BitOP.dll
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\BitOP.pdb
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\System.Web.Helpers.dll
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\System.Web.Mvc.dll
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\System.Web.Razor.dll
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\System.Web.WebPages.dll
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\System.Web.WebPages.Razor.dll
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\System.Web.Helpers.xml
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\System.Web.Mvc.xml
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\System.Web.Razor.xml
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\System.Web.WebPages.xml
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\System.Web.WebPages.Razor.xml
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\obj\Debug\BitOP.dll
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\obj\Debug\BitOP.pdb
+C:\Users\Fernando\OneDrive\BitOP\bin\BitOP.dll.config
+C:\Users\Fernando\OneDrive\BitOP\bin\BitOP.dll
+C:\Users\Fernando\OneDrive\BitOP\bin\BitOP.pdb
+C:\Users\Fernando\OneDrive\BitOP\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Fernando\OneDrive\BitOP\bin\System.Web.Helpers.dll
+C:\Users\Fernando\OneDrive\BitOP\bin\System.Web.Mvc.dll
+C:\Users\Fernando\OneDrive\BitOP\bin\System.Web.Razor.dll
+C:\Users\Fernando\OneDrive\BitOP\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Fernando\OneDrive\BitOP\bin\System.Web.WebPages.dll
+C:\Users\Fernando\OneDrive\BitOP\bin\System.Web.WebPages.Razor.dll
+C:\Users\Fernando\OneDrive\BitOP\bin\System.Web.Helpers.xml
+C:\Users\Fernando\OneDrive\BitOP\bin\System.Web.Mvc.xml
+C:\Users\Fernando\OneDrive\BitOP\bin\System.Web.Razor.xml
+C:\Users\Fernando\OneDrive\BitOP\bin\System.Web.WebPages.xml
+C:\Users\Fernando\OneDrive\BitOP\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Fernando\OneDrive\BitOP\bin\System.Web.WebPages.Razor.xml
+C:\Users\Fernando\OneDrive\BitOP\obj\Debug\BitOp.csprojResolveAssemblyReference.cache
+C:\Users\Fernando\OneDrive\BitOP\obj\Debug\BitOp.Properties.Resources.resources
+C:\Users\Fernando\OneDrive\BitOP\obj\Debug\BitOp.csproj.GenerateResource.Cache
+C:\Users\Fernando\OneDrive\BitOP\obj\Debug\RdlCompile.cache
+C:\Users\Fernando\OneDrive\BitOP\obj\Debug\RdlCompile.compiled
+C:\Users\Fernando\OneDrive\BitOP\obj\Debug\BitOP.dll
+C:\Users\Fernando\OneDrive\BitOP\obj\Debug\BitOP.pdb
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\obout_Interface.dll
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\Obout.Ajax.UI.xml
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\obout_Grid_NET.xml
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\obout_SuperForm.xml
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\obout_Interface.xml
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\obj\Debug\BitOP.dll.licenses
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\AjaxControlToolkit.dll
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Fernando\Documents\Visual Studio 2013\Projects\BitOP\bin\Microsoft.ScriptManager.WebForms.dll
