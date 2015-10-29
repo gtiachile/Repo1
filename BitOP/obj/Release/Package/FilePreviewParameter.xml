@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Default Web Site/Bop" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Fernando\\Documents\\Visual\ Studio\ 2013\\Projects\\BitOP\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Fernando\\Documents\\Visual\ Studio\ 2013\\Projects\\BitOP\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="BitOpContext-Web.config Connection String" description="" value="data source=fcg-nb\sqlexpress;persist security info=True;user id=BopUsr;password=bitacora2015;MultipleActiveResultSets=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Fernando\\Documents\\Visual\ Studio\ 2013\\Projects\\BitOP\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BitOpContext']/@connectionString" />
+  </parameter>
+  <parameter name="BopDBConnectionString-Web.config Connection String" description="" value="data source=fcg-nb\sqlexpress;persist security info=True;user id=BopUsr;password=bitacora2015;MultipleActiveResultSets=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Fernando\\Documents\\Visual\ Studio\ 2013\\Projects\\BitOP\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BopDBConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
